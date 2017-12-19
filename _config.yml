@@ -8,13 +8,13 @@ url: "https://altcast.io"
 twitter_username: altcast
 github_username:  AltCast
 
-logo: "/assets/images/logo.svg"
-bg1: "/assets/images/bg_1.svg"
-bg2: "/assets/images/bg_c_1.svg"
-headline_picture: "/assets/images/colors_wide_1.png"
-api_picture: "/assets/images/img_very_wide.svg"
-rafael_picture: "/assets/images/rafaelfragoso.jpeg"
-andre_picture: "/assets/images/andreabadesso.jpeg"
+logo: "assets/images/logo.svg"
+bg1: "assets/images/bg_1.svg"
+bg2: "assets/images/bg_c_1.svg"
+headline_picture: "assets/images/colors_wide_1.png"
+api_picture: "assets/images/img_very_wide.svg"
+rafael_picture: "assets/images/rafaelfragoso.jpeg"
+andre_picture: "assets/images/andreabadesso.jpeg"
 
 # Build settings
 markdown: kramdown
