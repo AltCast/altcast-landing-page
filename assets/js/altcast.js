@@ -1,17 +1,13 @@
 (function(w) {
 
   document.body.addEventListener('click', function(e) {
-    e.preventDefault(); 
-
     var el = findRealTarget(e.target, 'scrollable');
     var elTarget, finalTarget;
 
     if (el) {
+      e.preventDefault(); 
       elTarget = el.getAttribute('href');
       finalTarget = document.querySelector(elTarget);
-
-      console.log(elTarget);
-      console.log(finalTarget);
 
       if (finalTarget) {
         doScrolling(finalTarget.offsetTop, 1000);
