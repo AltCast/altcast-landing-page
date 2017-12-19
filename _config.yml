@@ -1,0 +1,25 @@
+title: Altcast - Exchange Solutions
+email: rafaelfragosom@gmail.com
+description: >- 
+  Built for traders and holders. Our dashboard is capable of showing all the Bitcoin and Altcoins prices in real-time from Poloniex, Bitfinex and Bittrex at the same time. Powered by our WebSockets API. 
+  
+baseurl: ""
+url: "https://altcast.io"
+twitter_username: altcast
+github_username:  AltCast
+
+logo: "/assets/images/logo.svg"
+bg1: "/assets/images/bg_1.svg"
+bg2: "/assets/images/bg_c_1.svg"
+headline_picture: "/assets/images/colors_wide_1.jpg"
+api_picture: "/assets/images/img_very_wide.svg"
+rafael_picture: "/assets/images/rafaelfragoso.jpeg"
+andre_picture: "/assets/images/andreabadesso.jpeg"
+
+# Build settings
+markdown: kramdown
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules

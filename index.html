@@ -1,28 +1,157 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-  <meta charset="utf-8">
-  <title>Altcast - Open Source Blockchain Projects</title>
-  <style>
-    * {margin: 0; padding: 0;}
-    html, body {width: 100%; height: 100%;}
+---
+layout: default 
+---
 
-    .logo {
-      width: 280px;
-      height: 280px;
-      background: url('./logo.png') no-repeat center center;
-      text-indent: -9999px;
-      overflow: hidden;
-      position: relative;
-      top: 50%;
-      left: 50%;
-      margin: -140px 0 0 -140px;
-    }
-  </style>
-</head>
-<body>
+<section class="fdb-block">
+  <div class="container align-items-center justify-content-center d-flex">
+    <div class="row align-items-center text-left">
+      <div class="col-12 col-sm-6">
+        <img alt="image" class="img-fluid" src="{{ site.headline_picture | prepend: site.baseurl }}">
+      </div>
 
-  <div class="logo"></div>
+      <div class="col-12 col-lg-5 ml-auto pt-5 pt-lg-0">
+        <h1>Altcast Dashboard</h1>
+        <p class="text-h3">Built for traders and holders. Our dashboard is capable of showing all the Bitcoin and Altcoins prices in real-time from Poloniex, Bitfinex and Bittrex at the same time. Powered by our WebSockets API.</p>
+      </div>
+    </div>
+  </div>
+</section>
 
-</body>
-</html>
+<section class="fdb-block" id="features">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 text-left">
+        <h1>Altcast Real-Time API</h1>
+        <p class="text-h3">There's always a GREAT API behind an awesome product. We do all the heavy lifting and syncing to power our products with real-time data from all the supported exchanges.</p>
+        <img alt="image" class="img-fluid mt-5" src="{{ site.api_picture | prepend: site.baseurl }}">
+      </div>
+    </div>
+
+    <div class="row text-left mt-5">
+      <div class="col-12 col-md-4">
+        <div class="row d-flex align-items-center">
+          <div class="col-3">
+            <i class="fa fa-refresh fa-4x" aria-hidden="true" style="color:#2366fa;"></i>
+          </div>
+          <div class="col-9">
+            <h3><strong>Real-Time</strong></h3>
+            <p>We are powered by WebSockets to send real-time data to our clients.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-4 pt-4 pt-md-0">
+        <div class="row d-flex align-items-center">
+          <div class="col-3">
+            <i class="fa fa-group fa-4x" aria-hidden="true" style="color:#2366fa;"></i>
+          </div>
+          <div class="col-9">
+            <h3><strong>Open Source</strong></h3>
+            <p>We are an open source organization and you can help us improve.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-4 pt-4 pt-md-0">
+        <div class="row d-flex align-items-center">
+          <div class="col-3">
+            <i class="fa fa-heart fa-4x" aria-hidden="true" style="color:#2366fa;"></i>
+          </div>
+          <div class="col-9">
+            <h3><strong>It's Free!</strong></h3>
+            <p>We love cryptocurrencies and we like to spread our love.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="fdb-block" id="newsletter" style="background-image: url({{ site.bg1 | prepend: site.baseurl }})">
+  <div class="container">
+    <div class="fdb-box">
+      <div class="row justify-content-center align-items-center">
+        <div class="col-12 col-lg-6">
+          <h2>Stay in Touch!</h2>
+          <p class="text-h3">We are working hard to release our services as soon as possible. Sign up to our newsletter to be one of the first to know when we launch it.</p>
+        </div>
+        <div class="col-12 col-lg-5 text-center">
+          <div class="input-group mt-4">
+            <!-- Begin MailChimp Signup Form -->
+            <form action="https://rafaelfragoso.us6.list-manage.com/subscribe/post?u=9e7b151c35486ca3543d4226e&amp;id=d8a42f9b9a" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" class="validate" style="display: flex; flex: 1; flex-direction: column;" novalidate>
+              <div style="display: flex; flex:1;">
+                <input type="email" value="" name="EMAIL" class="required email form-control" id="mce-EMAIL" placeholder="Enter your email address">
+                <span class="input-group-btn">
+                  <button type="submit" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary rounded-right">Subscribe</button>
+                </span>
+              </div>
+              <div id="mce-responses" class="clear">
+                <div class="invalid-feedback" id="mce-error-response" style="display:none"></div>
+                <div class="text-success" id="mce-success-response" style="display:none"></div>
+              </div>
+              <div style="display: none;" aria-hidden="true"><input type="text" name="b_9e7b151c35486ca3543d4226e_d8a42f9b9a" tabindex="-1" value=""></div>
+              <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="fdb-block team-5" id="team">
+  <div class="container">
+    <div class="row text-center justify-content-center">
+      <div class="col-8">
+        <h1>Meet Our Team</h1>
+      </div>
+    </div>
+
+    <div class="row-70"></div>
+
+    <div class="row text-center justify-content-center">
+      <div class="col-sm-2">
+        <img alt="image" class="img-fluid rounded-circle" src="{{ site.rafael_picture | prepend: site.baseurl }}">
+
+        <h3><strong>Rafael Fragoso</strong></h3>
+        <p>CEO</p>
+        <p>
+          <a href="https://twitter.com/rfragosodev" target="_new"><i class="fa fa-twitter" aria-hidden="true"></i></a>&nbsp;&nbsp;
+          <a href="https://facebook.com/rafaelfragosom" target="_new"><i class="fa fa-facebook" aria-hidden="true"></i></a>&nbsp;&nbsp;
+          <a href="https://linkedin.com/in/rafaelfragosom/" target="_new"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+        </p>
+      </div>
+
+      <div class="col-sm-2">
+        <img alt="image" class="img-fluid rounded-circle" src="{{ site.andre_picture | prepend: site.baseurl }}">
+
+        <h3><strong>Andre Abadesso</strong></h3>
+        <p>CTO</p>
+        <p>
+          <a href="https://twitter.com/andreabadesso" target="_new"><i class="fa fa-twitter" aria-hidden="true"></i></a>&nbsp;&nbsp;
+          <a href="https://facebook.com/andrea.badesso" target="_new"><i class="fa fa-facebook" aria-hidden="true"></i></a>&nbsp;&nbsp;
+          <a href="https://www.linkedin.com/in/andreabadesso/" target="_new"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="fdb-block" style="background-image: url({{ site.bg2 | prepend: site.baseurl }});" id="about">
+  <div class="container">
+    <div class="row text-left">
+      <div class="col-12 col-sm-10 m-auto m-md-0 col-md-8 col-lg-6">
+        <div class="fdb-box">
+          <div class="row justify-content-center">
+            <div class="col-12 col-xl-8 text-center">
+              <h1>About Us</h1>
+              <p class="text-h3">We are a small company based in Brazil, born from our passion for cryptocurrencies. We are also pasionate developers who love to create tools for the crypto-community.</p>
+
+              <p class="text-h3 mt-4"><a href="{{ "/about" | prepend: site.baseurl }}">Learn More &gt;</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

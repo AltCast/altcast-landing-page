@@ -1,0 +1,9 @@
+{
+  "name": "altcast-landing-page",
+  "version": "1.0.0",
+  "description": "Altcast Landing Page and Blog",
+  "main": "index.js",
+  "repository": "git@github.com:AltCast/altcast-landing-page.git",
+  "author": "Rafael Fragoso <rafaelfragosom@gmail.com>",
+  "license": "MIT"
+}
